@@ -1,0 +1,8 @@
+<launch>
+    
+
+    <node pkg="unitree_legged_real" type="gait_switch" name="node_gait_switch" output="screen"/>
+    <node pkg="unitree_legged_real" type="control_via_keyboard" name="node_control_via_keyboard" output="screen"/>
+
+    
+</launch>
